@@ -1,0 +1,114 @@
+body{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+}
+.container{
+    top: 40%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px; 
+    /* height: 50vw; */
+}
+
+.login-box {
+    margin: 200px; 
+    width: 350px;
+    padding: 40px;
+    /* transform: translate(-50%, -50%); */
+    background: #f8f1f1;
+    /* background: linear-gradient(#006992, #2E1760); */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+}
+.edit-box {
+    
+    width: 20vw;
+    padding: 40px;
+    /* transform: translate(-50%, -50%); */
+    background: #f8f1f1;
+    /* background: linear-gradient(#006992, #2E1760); */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+}
+
+.table-box {
+    /* position: relative;
+    top: 55%;
+    left: 50%; */
+    width: 70vw;
+    padding: 40px;
+    /* transform: translate(-50%, -50%); */
+    background: #f8f1f1;
+    /* background: linear-gradient(#006992, #2E1760); */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+}
+.table-box img{
+    width: 5vw;
+}
+
+.detail-box {
+    /* position: relative; */
+    /* top: 30%;
+    left: 50%; */
+    width: 70vw;
+    padding: 40px;
+    /* transform: translate(-50%, -50%); */
+    background: #f8f1f1;
+    /* background: linear-gradient(#006992, #2E1760); */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 6);
+    border-radius: 10px;
+}
+.detail-box img{
+    width: 20vw;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #000000;
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #000000;
+    font-size: 12px;
+}
